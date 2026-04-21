@@ -1,5 +1,5 @@
 // Inclui a biblioteca nativa do Arduino para comunicação MIDI via cabo USB.
-// O computador reconhecerá a placa como um instrumento musical ("Arduino Leonardo MIDI").
+// O computador reconhecerá a placa como um instrumento musical ("Arduino Leonardo:Arduino Leonardo MIDI 1 20:0").
 #include "MIDIUSB.h"
 
 // ==========================================
@@ -160,16 +160,19 @@ void scanMatrix() {
             // --- 1. VERIFICA SE É UM DOS BOTÕES DE FUNÇÃO ---
             if (keyIndex == BTN_OCTAVE_DOWN || keyIndex == BTN_OCTAVE_UP || keyIndex == BTN_SYSTEM) {
               
-              // Se for "Oitava Abaixo", alterna a oitava entre -12 semitons e 0.
               if (keyIndex == BTN_OCTAVE_DOWN) {
-                octaveShift = (octaveShift == -12) ? 0 : -12;
+                // Diminui 12 semitons a cada pressão. 
+                // Colocamos um limite de -48 (4 oitavas) para o usuário não "se perder" no silêncio.
+                octaveShift -= 12;
+                if (octaveShift < -36) octaveShift = -36; 
               } 
-              // Se for "Oitava Acima", alterna a oitava entre +12 semitons e 0.
               else if (keyIndex == BTN_OCTAVE_UP) {
-                octaveShift = (octaveShift == 12) ? 0 : 12;
+                // Aumenta 12 semitons a cada pressão.
+                octaveShift += 12;
+                if (octaveShift > 36) octaveShift = 36;
               } 
-              // Se for o "Botão de Sistema", inverte o modo B-System para C-System e vice-versa.
               else if (keyIndex == BTN_SYSTEM) {
+                // Alterna entre C-System e B-System
                 isBSystem = !isBSystem;
               }
 
