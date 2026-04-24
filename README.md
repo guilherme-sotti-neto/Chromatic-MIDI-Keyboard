@@ -1,7 +1,7 @@
 # Chromatic MIDI Button Keyboard 
 
 # About 
-This project was made to be open to anyone who wants to make your own Chromatic MIDI Keyboard at home. 
+This project was made to be open for anyone who wants to make their own Chromatic MIDI Keyboard at home. 
 I tried to make it as reliable and fixable as possible.
 
 # Components 
