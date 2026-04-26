@@ -6475,6 +6475,54 @@
 			)
 		)
 	)
+	(global_label "Column 16"
+		(shape input)
+		(at 85.09 110.49 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "33383df2-647f-4b8a-b8c6-9473e7c27add")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 71.6427 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "Column 11"
+		(shape input)
+		(at 85.09 107.95 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3c8a73f1-f080-4e90-b3a2-f1ed344bdcad")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 71.6427 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "Column 4"
 		(shape input)
 		(at 146.05 35.56 90)
@@ -6544,30 +6592,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-	)
-	(global_label "Column 16"
-		(shape input)
-		(at 16.51 86.36 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "45624ebf-efd9-43a4-ad46-35da0011f18e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 3.0627 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 	)
@@ -6739,30 +6763,6 @@
 			)
 		)
 	)
-	(global_label "Row 0"
-		(shape input)
-		(at 16.51 68.58 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "65270f0d-1bd1-41a3-af88-79b03b764485")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 7.5982 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "Column 5"
 		(shape input)
 		(at 67.31 78.74 0)
@@ -6784,6 +6784,30 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "Row 0"
+		(shape input)
+		(at 16.51 83.82 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "67a8e1ae-fff7-434a-a53d-daddd06a3a2a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 7.5982 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
@@ -7003,30 +7027,6 @@
 			)
 		)
 	)
-	(global_label "Row 2"
-		(shape input)
-		(at 67.31 93.98 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "89e598c2-7d68-463b-9fa1-6ae69f1458c0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 76.2218 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "Column 12"
 		(shape input)
 		(at 16.51 96.52 180)
@@ -7051,7 +7051,7 @@
 			)
 		)
 	)
-	(global_label "Column 15"
+	(global_label "Row 2"
 		(shape input)
 		(at 16.51 88.9 180)
 		(fields_autoplaced yes)
@@ -7061,9 +7061,9 @@
 			)
 			(justify right)
 		)
-		(uuid "915f3b77-1899-4a27-a132-e4174caa517c")
+		(uuid "93e79f62-56a6-4930-85d3-4390aae48e00")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 3.0627 88.9 0)
+			(at 7.5982 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7112,6 +7112,30 @@
 		(uuid "95ddf344-c9ba-4e59-9a25-522861a080c1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 105.9327 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "Column 15"
+		(shape input)
+		(at 85.09 113.03 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9861aa56-c956-42ef-8471-6f8eb1c27028")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 71.6427 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7195,30 +7219,6 @@
 			)
 		)
 	)
-	(global_label "Row 1"
-		(shape input)
-		(at 16.51 66.04 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a99a276a-ec84-45ac-9811-2131ee484e99")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 7.5982 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "Pin 7"
 		(shape input)
 		(at 158.75 111.76 180)
@@ -7264,30 +7264,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-	)
-	(global_label "Column 11"
-		(shape input)
-		(at 16.51 83.82 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c0cd1a1b-1db1-4638-8020-d5dd48510cef")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 3.0627 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 	)
@@ -7736,6 +7712,30 @@
 		(uuid "f9f15665-550f-4b2a-ae9c-db92b06a2838")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 85.0682 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "Row 1"
+		(shape input)
+		(at 16.51 86.36 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fa3aaa7e-e0ab-4671-91f7-da6a35a86012")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 7.5982 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10606,7 +10606,7 @@
 				)
 			)
 		)
-		(property "Footprint" "arduino-library:Arduino_Leonardo_Shield"
+		(property "Footprint" "Leonardo_Rev3e:1X06"
 			(at 41.91 130.81 0)
 			(hide yes)
 			(show_name no)
